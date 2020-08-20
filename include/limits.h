@@ -19,6 +19,7 @@
  *	ISO C99 Standard: 7.10/5.2.4.2.1 Sizes of integer types	<limits.h>
  */
 
+// 提供了有关整数类型的大小限制的详细信息
 #ifndef _LIBC_LIMITS_H_
 #define _LIBC_LIMITS_H_	1
 

@@ -30,7 +30,7 @@ __BEGIN_DECLS
 /* Get size_t and NULL from <stddef.h>.  */
 #define	__need_size_t
 #define	__need_NULL
-#include <stddef.h>
+#include <stddef.h> // size_t 是从stddef.h里导入的，stddef.h 定义了各种变量类型和宏
 
 /* Tell the caller that we provide correct C++ prototypes.  */
 #if defined __cplusplus && __GNUC_PREREQ (4, 4)

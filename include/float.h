@@ -9,7 +9,7 @@
 #endif
 
 #include_next <float.h>
-
+// 提供了有关浮点类型的大小限制的详细信息
 /* Supplement float.h macros for _FloatN and _FloatNx for older
    compilers which do not yet support the type.  These are described
    in TS 18661-3.  */
